@@ -1,0 +1,26 @@
+html {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+#top-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+#searchbar {
+    width: 95%;
+}
+
+li {
+    display: inline;
+  }
+
+#top-nav-filter {
+    list-style-type: none;
+}
