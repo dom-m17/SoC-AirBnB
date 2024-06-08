@@ -19,8 +19,12 @@ html {
 
 li {
     display: inline;
-  }
+}
 
 #top-nav-filter {
     list-style-type: none;
+}
+
+.content-image {
+    max-width: 100%;
 }

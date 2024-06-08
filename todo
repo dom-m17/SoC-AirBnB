@@ -1,0 +1,21 @@
+This is a simple plan for creating the AirBnB clone project
+
+1. Create the Nav bar
+- Search bar
+    - Search icon
+    - Main text
+    - Sub text
+- Filter icons (create enough to require scrolling ~6)
+    - Images
+    - text
+
+2. Create the main content (create enough to require scrolling ~3)
+- Main image
+    - Share button overlay
+- Text
+    - Title
+    - Author
+    - Date
+
+3. Create the footer
+- 3 tabs
