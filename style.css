@@ -1,4 +1,4 @@
-html {
+body, html {
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
@@ -13,16 +13,41 @@ html {
     height: 0;
 }
 
-#searchbar {
-    width: 95%;
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #888;
 }
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+#searchbar {
+    padding-left: 35px;
+    height: 30px;
+    width: 95%;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
 
 li {
     display: inline;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 }
 
 #top-nav-filter {
     list-style-type: none;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .content-image {
