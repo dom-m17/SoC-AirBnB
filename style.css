@@ -3,14 +3,14 @@ body, html {
     font-family: sans-serif;
 }
 
-main {
-    padding-bottom: 38px;
-}
-
-#top-nav {
+#top-nav, #bottom-nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+#top-navbar {
+    border-bottom: 1px solid #ccc;
 }
 
 .break {
@@ -58,23 +58,22 @@ li {
     text-decoration: none;
 }
 
-#top-nav-filter {
+.navbar {
     list-style-type: none;
     overflow: auto;
     white-space: nowrap;
     display: flex;
-    border-bottom: 1px solid #ccc;
 }
 
-#top-nav-filter::-webkit-scrollbar {
+.navbar::-webkit-scrollbar {
     display: none;
 }
 
-ul#top-nav-filter {
+ul.navbar {
     padding: 0;
 }
 
-ul#top-nav-filter li {
+ul.navbar li {
     text-align: center;
 }
 
@@ -95,13 +94,4 @@ ul#top-nav-filter li {
 
 .content-item {
     line-height: 0.6;
-}
-
-#bottom-nav {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: white;
-    text-align: center;
 }
